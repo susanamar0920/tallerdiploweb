@@ -1,0 +1,79 @@
+.caja{
+	align-items: center;
+	border:outset;
+	box-shadow: 0 0 0 .5em #000;
+	display: flex;
+	height:400px;
+	justify-content:space-between;
+	margin:40px;
+	padding: 20px;
+
+}
+
+.caja div{
+	height: 200px;
+	width:25%;
+
+}
+
+.cajitas1{
+	background: lightgreen;
+
+}
+.cajitas2{
+
+	background: lightblue;
+
+}
+.caja1{
+	align-items:center;
+	border:outset;
+	box-shadow: 0 0 0 .5em #000;
+	display: flex;
+	height:500px;
+	justify-content:space-around;
+	margin:40px;
+	padding: 50px;
+}
+
+.caja1 div{
+	height: 500px;
+	width:25%;
+}
+
+.cajitas3{
+	background: lightgreen;
+	
+
+}
+.cajitas4{
+	background: lightblue;
+	
+}
+.cajitas5{
+	background: salmon;
+	}
+
+}
+.caja2{
+	
+	border:outset;
+	box-shadow: 0 0 0 .2em #000;
+	display: flex;
+	height:500px;
+	margin:40px;
+	padding: 20px;
+	flex-direction:row-reverse;
+	justify-content:flex-start;
+}
+
+.caja2 div{
+	height: 200px;
+	width:25%;
+}
+
+.cajitas6{
+
+	background: lightblue;
+
+}
